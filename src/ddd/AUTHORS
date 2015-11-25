@@ -1,0 +1,18 @@
+$Id: AUTHORS,v 1.1.1.1 2006/04/11 21:46:36 cchavva Exp $
+
+Primary DDD authors:
+
+Dorothea LÜTKEHAUS <luetke@ips.cs.tu-bs.de>
+Andreas ZELLER <ddd@gnu.org>
+
+
+DDD also contains code from:
+
+John L. CWIKLA <cwikla@wolfram.com>   - `LabelH' 3-D Widget look  
+Doug LEA (dl@rocky.oswego.edu)        - `strclass' string class     
+
+The current maintainer of DDD is:
+
+Andrew Gaylard <apg@users.sf.net>
+
+See the file `CREDITS' for people who have contributed code to DDD.

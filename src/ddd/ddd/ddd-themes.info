@@ -1,0 +1,146 @@
+This is ddd-themes.info, produced by makeinfo version 4.5 from
+ddd-themes.texi.
+
+INFO-DIR-SECTION Programming & development tools.
+START-INFO-DIR-ENTRY
+* DDD-Themes: (ddd-themes).       Writing DDD Themes.
+END-INFO-DIR-ENTRY
+
+DDD is a graphical front-end for GDB and other command-line debuggers.
+
+This is the First Edition, 2001-02-01, of `Writing DDD themes' for DDD
+Version 3.3.11.
+
+Copyright (C) 2001 Universität Passau
+Lehrstuhl für Software-Systeme
+Innstraße 33
+D-94032 Passau
+GERMANY
+
+Distributed by
+Free Software Foundation, Inc.
+59 Temple Place - Suite 330
+Boston, MA 02111-1307
+USA
+
+DDD and this manual are available via the DDD WWW page
+(http://www.gnu.org/software/ddd/).
+
+   Permission is granted to copy, distribute and/or modify this document
+under the terms of the GNU Free Documentation License, Version 1.1 or
+any later version published by the Free Software Foundation; with no
+Invariant Sections, no Front-Cover Texts and no Back-Cover Texts.  A
+copy of the license is included in the section entitled "GNU Free
+Documentation License".
+
+   Send questions, comments, suggestions, etc. to <ddd@gnu.org>.
+Send bug reports to <bug-ddd@gnu.org>.
+
+Indirect:
+ddd-themes.info-1: 1161
+ddd-themes.info-2: 51020
+ddd-themes.info-3: 99195
+
+Tag Table:
+(Indirect)
+Node: Top1161
+Node: Welcome2237
+Node: Creating Displays2584
+Node: Handling Boxes2935
+Node: Building Boxes from Data5407
+Ref: Building Boxes from Data-Footnote-17848
+Node: Writing Themes7926
+Node: Display Title Color8536
+Node: General Scheme9681
+Node: Overriding vs. Replacing11469
+Node: A Complex Example13672
+Node: Future Work15077
+Node: DDD VSL Functions15657
+Node: Displaying Fonts16496
+Ref: Displaying Fonts-Footnote-117718
+Ref: Displaying Fonts-Footnote-217830
+Node: Displaying Colors17942
+Node: Displaying Shadows20131
+Node: Displaying Data Displays20377
+Node: Displaying Simple Values21482
+Node: Displaying Pointers22151
+Node: Displaying References22678
+Node: Displaying Arrays23099
+Node: Displaying Structs23993
+Node: Displaying Lists25370
+Node: Displaying Sequences26718
+Node: Displaying Multi-Line Texts27150
+Node: Displaying Extra Properties27658
+Node: VSL Library28220
+Node: Library Conventions28958
+Node: Space Functions29247
+Node: Empty Space29506
+Node: Black Lines29932
+Node: White Space30696
+Node: Controlling Stretch31335
+Node: Box Dimensions31785
+Node: Composition Functions32292
+Node: Horizontal Composition32562
+Node: Vertical Composition33166
+Node: Textual Composition33924
+Node: Overlays34885
+Node: Arithmetic Functions35370
+Node: Comparison Functions36851
+Node: Maximum and Minimum Functions38379
+Node: Negation Functions38854
+Node: Frame Functions39213
+Node: Alignment Functions40000
+Node: Centering Functions40220
+Node: Flushing Functions40931
+Node: Emphasis Functions41652
+Node: Indentation Functions42176
+Node: String Functions42583
+Node: List Functions43382
+Node: Creating Lists43789
+Node: List Properties44211
+Node: Accessing List Elements45131
+Node: Manipulating Lists45900
+Node: Lists and Strings46662
+Node: Table Functions47034
+Node: Font Functions47830
+Node: Font Basics48203
+Node: Font Name Selection48440
+Node: Font Defaults49559
+Node: Font Selection50473
+Node: Color Functions51020
+Node: Arc Functions51623
+Node: Arc Basics52024
+Node: Custom Arc Functions52565
+Node: Slope Functions53106
+Node: Slope Basics53517
+Node: Arrow Functions54120
+Node: Custom Slope Functions54735
+Node: VSL Reference55098
+Node: VSL Boxes55477
+Node: VSL Lists57189
+Node: VSL Expressions57646
+Node: VSL String Literals57957
+Node: VSL Number Literals58373
+Node: VSL List Literals58649
+Node: VSL Conditionals59395
+Node: VSL Boolean Operators59900
+Node: VSL Local Variables60395
+Node: VSL Let Patterns61224
+Node: VSL Function Calls61895
+Node: VSL Constant Definitions62287
+Node: VSL Function Definitions62702
+Ref: VSL Function Definitions-Footnote-163661
+Node: VSL Function Parameters63860
+Node: VSL Unused Parameters64343
+Node: VSL Function Patterns64847
+Node: VSL Declaring Functions67077
+Node: VSL Redefining Functions67539
+Node: VSL Replacing Functions68042
+Node: VSL Overriding Functions68683
+Node: VSL Includes69560
+Node: VSL Operators70213
+Node: VSL Syntax Summary71722
+Node: Documentation License79482
+Node: Index99195
+
+End Tag Table

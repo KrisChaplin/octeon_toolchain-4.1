@@ -1,0 +1,7 @@
+// $Id: suppress.vsl,v 1.1.1.1 2006/04/11 21:46:38 cchavva Exp $
+// Suppress values.  If enabled, the given value will be suppressed.
+// This should be combined with a pattern like `*->X' to suppress
+// all members named `X'.
+
+#pragma replace value_box
+value_box(_) -> 0;

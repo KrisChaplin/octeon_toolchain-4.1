@@ -1,0 +1,8 @@
+// $Id: vsldef.vsl,v 1.1.1.1 2006/04/11 21:46:36 cchavva Exp $
+// Render VSL definitions
+
+#include "vsllib.vsl"
+
+#replace VSLLib, VSLDef
+VSLLib(_, vsldefs...) = (|)(vsldefs...);
+VSLDef(_, _, _, _, expr) = fix(expr);

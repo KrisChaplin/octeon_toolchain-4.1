@@ -1,0 +1,8 @@
+"%%Trailer\n"
+"\n"
+"% $Id: trailer.str,v 1.1.1.1 2006/04/11 21:46:36 cchavva Exp $\n"
+"% Trailer for DDD PostScript Box output\n"
+"\n"
+"grestore\n"
+"showpage\n"
+"end		% of ddddict \n"

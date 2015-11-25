@@ -1,0 +1,88 @@
+2006-06-06  Joseph Myers  <joseph@codesourcery.com>
+
+	* sysdeps/unix/sysv/linux/mips/bits/siginfo.h (__SI_PAD_SIZE): Use
+	smaller value for N32 as well as N64.
+
+2006-07-24  Joseph Myers  <joseph@codesourcery.com>
+
+	* sysdeps/unix/sysv/linux/mips/sigaction.c: If WRAPPER_INCLUDE is
+	defined, include the named file.
+
+2006-03-27  Denis Barbier  <barbier@linuxfr.org>
+
+	* sysdeps/unix/sysv/linux/mips/bits/resource.h (RLIMIT_RTPRIO): Fix
+	typo.
+
+2006-06-02  Joseph Myers  <joseph@codesourcery.com>
+
+	* sysdeps/unix/sysv/linux/mips/bits/resource.h (RLIM_INFINITY,
+	RLIM64_INFINITY): Define appropriately for N64.  Use unsigned
+	types.
+
+2006-03-11  Daniel Jacobowitz  <dan@codesourcery.com>
+
+	* sysdeps/unix/sysv/linux/mips/configure.in: Set libc_cv_slibdir,
+	libc_cv_localedir, libdir, arch_minimum_kernel, and
+	libc_cv_gcc_unwind_find_fde.
+	* sysdeps/unix/sysv/linux/mips/mips64/configure.in: New file.
+	* sysdeps/unix/sysv/linux/mips/configure: Regenerated.
+	* sysdeps/unix/sysv/linux/mips/mips64/configure: Generated.
+
+2006-03-11  Daniel Jacobowitz  <dan@codesourcery.com>
+
+	* sysdeps/unix/sysv/linux/mips/nptl/fork.c: Correct path to
+	i386/fork.c.
+
+2006-03-02  Lior Balkohen  <balkohen@gmail.com>
+
+	* sysdeps/unix/sysv/linux/mips/nptl/bits/pthreadtypes.h
+	(__pthread_list_t, __pthread_slist_t): New typedefs.
+	(pthread_mutex_t): Replace __next and __prev fields with __list.
+	* sysdeps/unix/sysv/linux/mips/nptl/lowlevellock.h (FUTEX_WAKE_OP,
+	FUTEX_OP_CLEAR_WAKE_IF_GT_ONE): Define.
+	(lll_futex_wake_unlock): Define.
+	(lll_robust_mutex_dead, lll_robust_mutex_trylock, lll_robust_mutex_lock,
+	lll_robust_mutex_cond_lock, lll_robust_mutex_timedlock,
+	lll_robust_mutex_unlock): New macros.
+	(__lll_robust_lock_wait, __lll_robust_timedlock_wait): New prototypes.	
+	* sysdeps/unix/sysv/linux/mips/nptl/pt-vfork.S: Use correct path to
+	vfork.S.
+	* sysdeps/unix/sysv/linux/mips/nptl/vfork.S: Likewise.
+
+2006-03-02  Daniel Jacobowitz  <dan@codesourcery.com>
+
+	* sysdeps/unix/sysv/linux/mips/ptrace.c: Delete file.
+	* sysdeps/unix/sysv/linux/mips/sys/ptrace.h: Delete file.
+
+2006-03-02  Daniel Jacobowitz  <dan@codesourcery.com>
+
+	* sysdeps/unix/sysv/linux/mips/mips64/n32/sysdep.h
+	(INTERNAL_SYSCALL): Update internal_syscall##nr invocation.
+	(INTERNAL_SYSCALL_NCS): New.
+	(internal_syscall0, internal_syscall1, internal_syscall2,
+	internal_syscall3, internal_syscall4, internal_syscall5,
+	internal_syscall6): Take ncs_init, cs_init, and input arguments.
+	Use them.  Correct types for registers.
+	* sysdeps/unix/sysv/linux/mips/mips64/n64/sysdep.h
+	(INTERNAL_SYSCALL): Update internal_syscall##nr invocation.
+	(INTERNAL_SYSCALL_NCS): New.
+	(internal_syscall0, internal_syscall1, internal_syscall2,
+	internal_syscall3, internal_syscall4, internal_syscall5,
+	internal_syscall6): Take ncs_init, cs_init, and input arguments.
+	Use them.
+	* sysdeps/unix/sysv/linux/mips/mips64/syscalls.list: Remove
+	recvfrom and sendto.  Mark lseek, msgrcv, and msgsnd as cancellation
+	points.
+	* sysdeps/mips/dl-machine.h (elf_machine_rel): Remove unused "value".
+	Use Elf(Addr) for TLS relocation targets.
+	* sysdeps/unix/sysv/linux/mips/mips64/Makefile: New file.
+	* sysdeps/unix/sysv/linux/mips/nptl/lowlevellock.h (lll_futex_wait,
+	lll_futex_timed_wait, lll_futex_wake, lll_futex_requeue): Cast
+	futexp to long for n64.
+	* sysdeps/unix/sysv/linux/mips/mips64/nptl/sysdep-cancel.h: New file.
+
+2006-02-20  Roland McGrath  <roland@redhat.com>
+
+	* sysdeps/mips/shlib-versions: New file.
+	* sysdeps/mips/preconfigure: New file.
+	* sysdeps/unix/sysv/linux/mips/kernel-features.h: New file.

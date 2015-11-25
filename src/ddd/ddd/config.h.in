@@ -1,0 +1,775 @@
+/* ddd/config.h.in.  Generated from configure.ac by autoheader.  */
+
+/* Define if you want any inferior debugger abi (e.g. "cp-abi", "osabi" in gdb
+   for Mac OS X) settings to have their own settings buttons (rather than
+   entering the abi as text) in DDD. */
+#undef GDB_ABI_OPTIONS
+
+/* Define if your inferior debugger has an ambigious "show path" command (e.g.
+   gdb for Mac OS X). */
+#undef GDB_AMBIGUOUS_SHOW_PATH
+
+/* Define if your inferior debugger has a broken "set interpreter" command
+   (e.g. gdb for Mac OS X). */
+#undef GDB_BROKEN_SET_INTERPRETER
+
+/* Define to the type of elements in the array set by `getgroups'. Usually
+   this is either `int' or `gid_t'. */
+#undef GETGROUPS_T
+
+/* Define to 1 if the `getpgrp' function requires zero arguments. */
+#undef GETPGRP_VOID
+
+/* Define to 1 if you have the `alloca' function. */
+#undef HAVE_ALLOCA
+
+/* Define if alloca is declared in alloca.h stdlib.h. */
+#undef HAVE_ALLOCA_DECL
+
+/* Define to 1 if you have the <alloca.h> header file. */
+#undef HAVE_ALLOCA_H
+
+/* Define if your C++ compiler supports overloaded operator array new. */
+#undef HAVE_ARRAY_OPERATOR_NEW
+
+/* Define to 1 if you have the `asctime' function. */
+#undef HAVE_ASCTIME
+
+/* Define if asctime is declared in time.h. */
+#undef HAVE_ASCTIME_DECL
+
+/* Define if you have the X Athena widgets. */
+#undef HAVE_ATHENA
+
+/* Define if your C++ compiler supports __attribute__ ((noreturn)). */
+#undef HAVE_ATTRIBUTE_NORETURN
+
+/* Define if your C++ compiler supports `bool' types. */
+#undef HAVE_BOOL
+
+/* Define if your C++ compiler supports __builtin_expect. */
+#undef HAVE_BUILTIN_EXPECT
+
+/* Define to 1 if you have the `clock' function. */
+#undef HAVE_CLOCK
+
+/* Define if clock is declared in time.h. */
+#undef HAVE_CLOCK_DECL
+
+/* Define to 1 if you have the `difftime' function. */
+#undef HAVE_DIFFTIME
+
+/* Define if difftime is declared in time.h. */
+#undef HAVE_DIFFTIME_DECL
+
+/* Define to 1 if you have the <dirent.h> header file, and it defines `DIR'.
+   */
+#undef HAVE_DIRENT_H
+
+/* Define to 1 if you have the <dlfcn.h> header file. */
+#undef HAVE_DLFCN_H
+
+/* Define to 1 if you have the `dup2' function. */
+#undef HAVE_DUP2
+
+/* Define if dup2 is declared in unistd.h. */
+#undef HAVE_DUP2_DECL
+
+/* Define to 1 if you have the `endpwent' function. */
+#undef HAVE_ENDPWENT
+
+/* Define if endpwent is declared in pwd.h. */
+#undef HAVE_ENDPWENT_DECL
+
+/* Define to 1 if you have the <exception> header file. */
+#undef HAVE_EXCEPTION
+
+/* Define if your C++ compiler supports exception handling. */
+#undef HAVE_EXCEPTIONS
+
+/* Define if your C++ compiler supports the `explicit' keyword. */
+#undef HAVE_EXPLICIT
+
+/* Define to 1 if you have the `fcntl' function. */
+#undef HAVE_FCNTL
+
+/* Define if fcntl is declared in fcntl.h. */
+#undef HAVE_FCNTL_DECL
+
+/* Define to 1 if you have the <fcntl.h> header file. */
+#undef HAVE_FCNTL_H
+
+/* Define to 1 if you have the `ftime' function. */
+#undef HAVE_FTIME
+
+/* Define if ftime is declared in sys/timeb.h. */
+#undef HAVE_FTIME_DECL
+
+/* Define to 1 if you have the `gethostbyname' function. */
+#undef HAVE_GETHOSTBYNAME
+
+/* Define if gethostbyname is declared in netdb.h. */
+#undef HAVE_GETHOSTBYNAME_DECL
+
+/* Define to 1 if you have the `gethostname' function. */
+#undef HAVE_GETHOSTNAME
+
+/* Define if gethostname is declared in unistd.h. */
+#undef HAVE_GETHOSTNAME_DECL
+
+/* Define to 1 if you have the `getpt' function. */
+#undef HAVE_GETPT
+
+/* Define to 1 if you have the `getpty' function. */
+#undef HAVE_GETPTY
+
+/* Define if getpty is declared in unistd.h. */
+#undef HAVE_GETPTY_DECL
+
+/* Define if getpt is declared in stdlib.h. */
+#undef HAVE_GETPT_DECL
+
+/* Define to 1 if you have the `getrlimit' function. */
+#undef HAVE_GETRLIMIT
+
+/* Define if getrlimit is declared in sys/resource.h. */
+#undef HAVE_GETRLIMIT_DECL
+
+/* Define to 1 if you have the `getrusage' function. */
+#undef HAVE_GETRUSAGE
+
+/* Define if getrusage is declared in sys/resource.h. */
+#undef HAVE_GETRUSAGE_DECL
+
+/* Define to 1 if you have the `getwd' function. */
+#undef HAVE_GETWD
+
+/* Define if getwd is declared in unistd.h. */
+#undef HAVE_GETWD_DECL
+
+/* Define to 1 if you have the `grantpt' function. */
+#undef HAVE_GRANTPT
+
+/* Define if grantpt is declared in stdlib.h. */
+#undef HAVE_GRANTPT_DECL
+
+/* Define to 1 if you have the `hypot' function. */
+#undef HAVE_HYPOT
+
+/* Define if hypot is declared in math.h. */
+#undef HAVE_HYPOT_DECL
+
+/* Define to 1 if you have the <inttypes.h> header file. */
+#undef HAVE_INTTYPES_H
+
+/* Define to 1 if you have the `ioctl' function. */
+#undef HAVE_IOCTL
+
+/* Define if ioctl is declared in unistd.h sys/ioctl.h. */
+#undef HAVE_IOCTL_DECL
+
+/* Define to 1 if you have the <libelf.h> header file. */
+#undef HAVE_LIBELF_H
+
+/* Define to 1 if you have the `m' library (-lm). */
+#undef HAVE_LIBM
+
+/* Define to 1 if you have the `link' function. */
+#undef HAVE_LINK
+
+/* Define if link is declared in unistd.h. */
+#undef HAVE_LINK_DECL
+
+/* Define to 1 if you have the <locale.h> header file. */
+#undef HAVE_LOCALE_H
+
+/* Define if your C++ compiler supports `long long' types. */
+#undef HAVE_LONG_LONG
+
+/* Define to 1 if you have the `lstat' function. */
+#undef HAVE_LSTAT
+
+/* Define if lstat is declared in sys/stat.h. */
+#undef HAVE_LSTAT_DECL
+
+/* Define to 1 if you have the `malloc' function. */
+#undef HAVE_MALLOC
+
+/* Define if malloc is declared in stdlib.h. */
+#undef HAVE_MALLOC_DECL
+
+/* Define to 1 if you have the <malloc.h> header file. */
+#undef HAVE_MALLOC_H
+
+/* Define if MAXPATHLEN is defined or declared in <sys/param.h> */
+#undef HAVE_MAXPATHLEN
+
+/* Define to 1 if you have the `memcpy' function. */
+#undef HAVE_MEMCPY
+
+/* Define if memcpy is declared in string.h. */
+#undef HAVE_MEMCPY_DECL
+
+/* Define to 1 if you have the <memory.h> header file. */
+#undef HAVE_MEMORY_H
+
+/* Define to 1 if you have the `memset' function. */
+#undef HAVE_MEMSET
+
+/* Define if memset is declared in string.h. */
+#undef HAVE_MEMSET_DECL
+
+/* Define to 1 if you have the `mkstemp' function. */
+#undef HAVE_MKSTEMP
+
+/* Define if mkstemp is declared in stdlib.h. */
+#undef HAVE_MKSTEMP_DECL
+
+/* Define if you have Motif widgets. */
+#undef HAVE_MOTIF
+
+/* Define if your C++ compiler supports the `mutable' keyword. */
+#undef HAVE_MUTABLE
+
+/* Define if your C++ compiler supports namespaces. */
+#undef HAVE_NAMESPACE
+
+/* Define to 1 if you have the <ndir.h> header file, and it defines `DIR'. */
+#undef HAVE_NDIR_H
+
+/* Define to 1 if you have the <netdb.h> header file. */
+#undef HAVE_NETDB_H
+
+/* Define if your C++ compiler supports new C++ casts, such as `const_cast'.
+   */
+#undef HAVE_NEW_CASTS
+
+/* Define if PATH_MAX is defined or declared in <limits.h>. */
+#undef HAVE_PATH_MAX
+
+/* Define to 1 if you have the `pclose' function. */
+#undef HAVE_PCLOSE
+
+/* Define if pclose is declared in stdio.h. */
+#undef HAVE_PCLOSE_DECL
+
+/* Define if your C++ compiler supports placement new. */
+#undef HAVE_PLACEMENT_NEW
+
+/* Define to 1 if you have the `popen' function. */
+#undef HAVE_POPEN
+
+/* Define if popen is declared in stdio.h. */
+#undef HAVE_POPEN_DECL
+
+/* Define if _POSIX_PATH_MAX is defined or declared in <limits.h>. */
+#undef HAVE_POSIX_PATH_MAX
+
+/* Define if your C++ compiler supports the __PRETTY_FUNCTION__ macro. */
+#undef HAVE_PRETTY_FUNCTION
+
+/* Define to 1 if you have the `ptrace' function. */
+#undef HAVE_PTRACE
+
+/* Define if ptrace is declared in unistd.h sys/ptrace.h. */
+#undef HAVE_PTRACE_DECL
+
+/* Define if ptrace() supports a PTRACE_DUMPCORE request to dump core files.
+   */
+#undef HAVE_PTRACE_DUMPCORE
+
+/* Define to 1 if you have the `ptsname' function. */
+#undef HAVE_PTSNAME
+
+/* Define if ptsname is declared in stdlib.h. */
+#undef HAVE_PTSNAME_DECL
+
+/* Define to 1 if you have the <pwd.h> header file. */
+#undef HAVE_PWD_H
+
+/* Define to 1 if you have the `raise' function. */
+#undef HAVE_RAISE
+
+/* Define if raise is declared in signal.h. */
+#undef HAVE_RAISE_DECL
+
+/* Define to 1 if you have the `rand' function. */
+#undef HAVE_RAND
+
+/* Define to 1 if you have the `random' function. */
+#undef HAVE_RANDOM
+
+/* Define if random is declared in stdlib.h. */
+#undef HAVE_RANDOM_DECL
+
+/* Define if rand is declared in stdlib.h. */
+#undef HAVE_RAND_DECL
+
+/* Define to 1 if you have the `readlink' function. */
+#undef HAVE_READLINK
+
+/* Define if readlink is declared in unistd.h. */
+#undef HAVE_READLINK_DECL
+
+/* Define to 1 if you have the `setbuf' function. */
+#undef HAVE_SETBUF
+
+/* Define if setbuf is declared in stdio.h. */
+#undef HAVE_SETBUF_DECL
+
+/* Define to 1 if you have the `setlocale' function. */
+#undef HAVE_SETLOCALE
+
+/* Define if setlocale is declared in locale.h. */
+#undef HAVE_SETLOCALE_DECL
+
+/* Define to 1 if you have the `setpgid' function. */
+#undef HAVE_SETPGID
+
+/* Define if setpgid is declared in unistd.h. */
+#undef HAVE_SETPGID_DECL
+
+/* Define to 1 if you have the `setpgrp' function. */
+#undef HAVE_SETPGRP
+
+/* Define to 1 if you have the `setpgrp2' function. */
+#undef HAVE_SETPGRP2
+
+/* Define if setpgrp2 is declared in unistd.h. */
+#undef HAVE_SETPGRP2_DECL
+
+/* Define if setpgrp is declared in unistd.h. */
+#undef HAVE_SETPGRP_DECL
+
+/* Define to 1 if you have the `setpwent' function. */
+#undef HAVE_SETPWENT
+
+/* Define if setpwent is declared in pwd.h. */
+#undef HAVE_SETPWENT_DECL
+
+/* Define to 1 if you have the `setrlimit' function. */
+#undef HAVE_SETRLIMIT
+
+/* Define if setrlimit is declared in sys/resource.h. */
+#undef HAVE_SETRLIMIT_DECL
+
+/* Define to 1 if you have the `setsid' function. */
+#undef HAVE_SETSID
+
+/* Define if setsid is declared in unistd.h. */
+#undef HAVE_SETSID_DECL
+
+/* Define to 1 if you have the `setvbuf' function. */
+#undef HAVE_SETVBUF
+
+/* Define if setvbuf is declared in stdio.h. */
+#undef HAVE_SETVBUF_DECL
+
+/* Define to 1 if you have the `sigblock' function. */
+#undef HAVE_SIGBLOCK
+
+/* Define if sigblock is declared in signal.h. */
+#undef HAVE_SIGBLOCK_DECL
+
+/* Define to 1 if you have the `sigprocmask' function. */
+#undef HAVE_SIGPROCMASK
+
+/* Define if sigprocmask is declared in signal.h. */
+#undef HAVE_SIGPROCMASK_DECL
+
+/* Define to 1 if you have the `sigsetmask' function. */
+#undef HAVE_SIGSETMASK
+
+/* Define if sigsetmask is declared in signal.h. */
+#undef HAVE_SIGSETMASK_DECL
+
+/* Define to 1 if you have the `sigsuspend' function. */
+#undef HAVE_SIGSUSPEND
+
+/* Define if sigsuspend is declared in signal.h. */
+#undef HAVE_SIGSUSPEND_DECL
+
+/* Define to 1 if you have the `srand' function. */
+#undef HAVE_SRAND
+
+/* Define to 1 if you have the `srandom' function. */
+#undef HAVE_SRANDOM
+
+/* Define if srandom is declared in stdlib.h math.h. */
+#undef HAVE_SRANDOM_DECL
+
+/* Define if srand is declared in stdlib.h. */
+#undef HAVE_SRAND_DECL
+
+/* Define to 1 if you have the `stat' function. */
+#undef HAVE_STAT
+
+/* Define if stat is declared in sys/stat.h. */
+#undef HAVE_STAT_DECL
+
+/* Define to 1 if you have the <stdexcept> header file. */
+#undef HAVE_STDEXCEPT
+
+/* Define to 1 if you have the <stdint.h> header file. */
+#undef HAVE_STDINT_H
+
+/* Define to 1 if you have the <stdlib.h> header file. */
+#undef HAVE_STDLIB_H
+
+/* Define if your C++ compiler supports ISO C++ standard exceptions. */
+#undef HAVE_STD_EXCEPTIONS
+
+/* Define if the `std::streampos' type can be used after <iostream.h>. */
+#undef HAVE_STD_STREAMPOS
+
+/* Define if the `streampos' type can be used after <iostream.h>. */
+#undef HAVE_STREAMPOS
+
+/* Define to 1 if you have the `strerror' function. */
+#undef HAVE_STRERROR
+
+/* Define if strerror is declared in string.h. */
+#undef HAVE_STRERROR_DECL
+
+/* Define to 1 if you have the `strftime' function. */
+#undef HAVE_STRFTIME
+
+/* Define if strftime is declared in time.h. */
+#undef HAVE_STRFTIME_DECL
+
+/* Define to 1 if you have the <strings.h> header file. */
+#undef HAVE_STRINGS_H
+
+/* Define to 1 if you have the <string.h> header file. */
+#undef HAVE_STRING_H
+
+/* Define to 1 if you have the <stropts.h> header file. */
+#undef HAVE_STROPTS_H
+
+/* Define to 1 if you have the `strsignal' function. */
+#undef HAVE_STRSIGNAL
+
+/* Define if strsignal is declared in string.h unistd.h. */
+#undef HAVE_STRSIGNAL_DECL
+
+/* Define to 1 if you have the `strtod' function. */
+#undef HAVE_STRTOD
+
+/* Define if strtod is declared in stdlib.h. */
+#undef HAVE_STRTOD_DECL
+
+/* Define to 1 if you have the `strtol' function. */
+#undef HAVE_STRTOL
+
+/* Define if strtol is declared in stdlib.h. */
+#undef HAVE_STRTOL_DECL
+
+/* Define to 1 if you have the `strtoul' function. */
+#undef HAVE_STRTOUL
+
+/* Define if strtoul is declared in stdlib.h. */
+#undef HAVE_STRTOUL_DECL
+
+/* Define to 1 if you have the `symlink' function. */
+#undef HAVE_SYMLINK
+
+/* Define if symlink is declared in unistd.h. */
+#undef HAVE_SYMLINK_DECL
+
+/* Define to 1 if you have the <sys/dir.h> header file, and it defines `DIR'.
+   */
+#undef HAVE_SYS_DIR_H
+
+/* Define to 1 if you have the <sys/int_types.h> header file. */
+#undef HAVE_SYS_INT_TYPES_H
+
+/* Define to 1 if you have the <sys/ioctl.h> header file. */
+#undef HAVE_SYS_IOCTL_H
+
+/* Define to 1 if you have the <sys/ndir.h> header file, and it defines `DIR'.
+   */
+#undef HAVE_SYS_NDIR_H
+
+/* Define to 1 if you have the <sys/param.h> header file. */
+#undef HAVE_SYS_PARAM_H
+
+/* Define to 1 if you have the <sys/ptrace.h> header file. */
+#undef HAVE_SYS_PTRACE_H
+
+/* Define to 1 if you have the <sys/resource.h> header file. */
+#undef HAVE_SYS_RESOURCE_H
+
+/* Define to 1 if you have the <sys/socket.h> header file. */
+#undef HAVE_SYS_SOCKET_H
+
+/* Define to 1 if you have the <sys/stat.h> header file. */
+#undef HAVE_SYS_STAT_H
+
+/* Define to 1 if you have the <sys/stropts.h> header file. */
+#undef HAVE_SYS_STROPTS_H
+
+/* Define to 1 if you have the <sys/sysmacros.h> header file. */
+#undef HAVE_SYS_SYSMACROS_H
+
+/* Define to 1 if you have the <sys/termios.h> header file. */
+#undef HAVE_SYS_TERMIOS_H
+
+/* Define to 1 if you have the <sys/timeb.h> header file. */
+#undef HAVE_SYS_TIMEB_H
+
+/* Define to 1 if you have the <sys/time.h> header file. */
+#undef HAVE_SYS_TIME_H
+
+/* Define to 1 if you have the <sys/types.h> header file. */
+#undef HAVE_SYS_TYPES_H
+
+/* Define to 1 if you have the <sys/utsname.h> header file. */
+#undef HAVE_SYS_UTSNAME_H
+
+/* Define to 1 if you have the <sys/vty.h> header file. */
+#undef HAVE_SYS_VTY_H
+
+/* Define to 1 if you have <sys/wait.h> that is POSIX.1 compatible. */
+#undef HAVE_SYS_WAIT_H
+
+/* Define to 1 if you have the `tcdrain' function. */
+#undef HAVE_TCDRAIN
+
+/* Define if tcdrain is declared in termios.h. */
+#undef HAVE_TCDRAIN_DECL
+
+/* Define to 1 if you have the `tcflow' function. */
+#undef HAVE_TCFLOW
+
+/* Define if tcflow is declared in termios.h. */
+#undef HAVE_TCFLOW_DECL
+
+/* Define to 1 if you have the `tcflush' function. */
+#undef HAVE_TCFLUSH
+
+/* Define if tcflush is declared in termios.h. */
+#undef HAVE_TCFLUSH_DECL
+
+/* Define to 1 if you have the `tcgetattr' function. */
+#undef HAVE_TCGETATTR
+
+/* Define if tcgetattr is declared in termios.h. */
+#undef HAVE_TCGETATTR_DECL
+
+/* Define to 1 if you have the `tcgetpgrp' function. */
+#undef HAVE_TCGETPGRP
+
+/* Define if tcgetpgrp is declared in unistd.h. */
+#undef HAVE_TCGETPGRP_DECL
+
+/* Define to 1 if you have the `tcgetsid' function. */
+#undef HAVE_TCGETSID
+
+/* Define if tcgetsid is declared in sys/termios.h. */
+#undef HAVE_TCGETSID_DECL
+
+/* Define to 1 if you have the `tcsendbreak' function. */
+#undef HAVE_TCSENDBREAK
+
+/* Define if tcsendbreak is declared in termios.h. */
+#undef HAVE_TCSENDBREAK_DECL
+
+/* Define to 1 if you have the `tcsetattr' function. */
+#undef HAVE_TCSETATTR
+
+/* Define if tcsetattr is declared in termios.h. */
+#undef HAVE_TCSETATTR_DECL
+
+/* Define to 1 if you have the `tcsetpgrp' function. */
+#undef HAVE_TCSETPGRP
+
+/* Define if tcsetpgrp is declared in unistd.h. */
+#undef HAVE_TCSETPGRP_DECL
+
+/* Define to 1 if you have the <termios.h> header file. */
+#undef HAVE_TERMIOS_H
+
+/* Define to 1 if you have the <termio.h> header file. */
+#undef HAVE_TERMIO_H
+
+/* Define to 1 if you have the `times' function. */
+#undef HAVE_TIMES
+
+/* Define if times is declared in sys/times.h. */
+#undef HAVE_TIMES_DECL
+
+/* Define to 1 if you have the `tmpfile' function. */
+#undef HAVE_TMPFILE
+
+/* Define if tmpfile is declared in stdio.h. */
+#undef HAVE_TMPFILE_DECL
+
+/* Define if your C++ compiler supports run-time type information. */
+#undef HAVE_TYPEINFO
+
+/* Define to 1 if you have the `uname' function. */
+#undef HAVE_UNAME
+
+/* Define if uname is declared in sys/utsname.h. */
+#undef HAVE_UNAME_DECL
+
+/* Define to 1 if you have the <unistd.h> header file. */
+#undef HAVE_UNISTD_H
+
+/* Define to 1 if you have the `unlink' function. */
+#undef HAVE_UNLINK
+
+/* Define if unlink is declared in unistd.h. */
+#undef HAVE_UNLINK_DECL
+
+/* Define to 1 if you have the `unlockpt' function. */
+#undef HAVE_UNLOCKPT
+
+/* Define if unlockpt is declared in stdlib.h. */
+#undef HAVE_UNLOCKPT_DECL
+
+/* Define to 1 if you have the `waitpid' function. */
+#undef HAVE_WAITPID
+
+/* Define if waitpid is declared in sys/wait.h. */
+#undef HAVE_WAITPID_DECL
+
+/* Define to 1 if you have the <X11/Xaw/Form.h> header file. */
+#undef HAVE_X11_XAW_FORM_H
+
+/* Define to 1 if you have the <X11/Xaw/Panner.h> header file. */
+#undef HAVE_X11_XAW_PANNER_H
+
+/* Define to 1 if you have the <X11/Xaw/Porthole.h> header file. */
+#undef HAVE_X11_XAW_PORTHOLE_H
+
+/* Define to 1 if you have the <X11/Xmu/Editres.h> header file. */
+#undef HAVE_X11_XMU_EDITRES_H
+
+/* Define to 1 if you have the <X11/xpm.h> header file. */
+#undef HAVE_X11_XPM_H
+
+/* Define if the Motif library defines `Xm21InstallImage'. */
+#undef HAVE_XM21INSTALLIMAGE
+
+/* Define if the Motif library defines `XmInstallImage'. */
+#undef HAVE_XMINSTALLIMAGE
+
+/* Define if the Motif library defines `xmUseVersion'. */
+#undef HAVE_XMUSEVERSION
+
+/* Define if you have the XP library (X11R6.3 print server). */
+#undef HAVE_XP
+
+/* Define if you have the XPM library. */
+#undef HAVE_XPM
+
+/* Define to 1 if you have the <xpm.h> header file. */
+#undef HAVE_XPM_H
+
+/* Define to 1 if you have the `_getpty' function. */
+#undef HAVE__GETPTY
+
+/* Define if _getpty is declared in unistd.h. */
+#undef HAVE__GETPTY_DECL
+
+/* Define if Motif selection dialogs `own' their selection list, i.e. it must
+   not be freed after setting. */
+#undef MOTIF_DIALOGS_OWN_SELECTION_LIST
+
+/* Name of package */
+#undef PACKAGE
+
+/* Define to the address where bug reports for this package should be sent. */
+#undef PACKAGE_BUGREPORT
+
+/* Define to the full name of this package. */
+#undef PACKAGE_NAME
+
+/* Define to the full name and version of this package. */
+#undef PACKAGE_STRING
+
+/* Define to the one symbol short name of this package. */
+#undef PACKAGE_TARNAME
+
+/* Define to the version of this package. */
+#undef PACKAGE_VERSION
+
+/* Define as the return type of signal handlers (`int' or `void'). */
+#undef RETSIGTYPE
+
+/* Define if you want support for runtime-compiled regexps. Default in DDD 2.1
+   and earlier. Requires ~30% more memory; slightly slower, too. Requires
+   WITH_RUNTIME_REGEX to be set. Required in ICE. */
+#undef RUNTIME_REGEX
+
+/* Define to 1 if the `setpgrp' function takes no argument. */
+#undef SETPGRP_VOID
+
+/* Define to the signal handler type accepted by signal(). See the `signal'
+   man page and the decl in <signal.h> for the exact type. Typically values
+   are `int', `...', and `int,...'. */
+#undef SIGHANDLERARGS
+
+/* Define to 1 if the `S_IS*' macros in <sys/stat.h> do not work properly. */
+#undef STAT_MACROS_BROKEN
+
+/* Define to 1 if you have the ANSI C header files. */
+#undef STDC_HEADERS
+
+/* Define to 1 if you can safely include both <sys/time.h> and <time.h>. */
+#undef TIME_WITH_SYS_TIME
+
+/* Version number of package */
+#undef VERSION
+
+/* Define if you want the app-defaults file to be compiled into the
+   executable. */
+#undef WITH_BUILTIN_APP_DEFAULTS
+
+/* Define if you want the DDD license to be compiled into the executable. */
+#undef WITH_BUILTIN_LICENSE
+
+/* Define if you want the manual to be compiled into the executable. */
+#undef WITH_BUILTIN_MANUAL
+
+/* Define if you want the DDD news to be compiled into the executable. */
+#undef WITH_BUILTIN_NEWS
+
+/* Define if you want the DDD VSL library to be compiled into DDD. */
+#undef WITH_BUILTIN_VSLLIB
+
+/* Define if you want readline support in DDD. */
+#undef WITH_READLINE
+
+/* Define if you want support for runtime-compiled regexps. Required in ICE;
+   not needed in DDD. */
+#undef WITH_RUNTIME_REGEX
+
+/* Define if you want valgrind leak check of DDD. */
+#undef WITH_VALGRIND
+
+/* Define to 1 if the X Window System is missing or not being used. */
+#undef X_DISPLAY_MISSING
+
+/* Define to 1 if `lex' declares `yytext' as a `char *' by default, not a
+   `char[]'. */
+#undef YYTEXT_POINTER
+
+/* Define to `int' if <sys/types.h> doesn't define. */
+#undef gid_t
+
+/* Define to `int' if <sys/types.h> does not define. */
+#undef mode_t
+
+/* Define to `long' if <sys/types.h> does not define. */
+#undef off_t
+
+/* Define to `int' if <sys/types.h> does not define. */
+#undef pid_t
+
+/* Define to `unsigned' if <sys/types.h> does not define. */
+#undef size_t
+
+/* Define to `int' if <sys/types.h> doesn't define. */
+#undef uid_t

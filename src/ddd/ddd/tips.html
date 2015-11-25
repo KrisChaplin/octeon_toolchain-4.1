@@ -1,0 +1,240 @@
+<OL START=0>
+
+<LI>If you have any more DDD tips of the day,<BR>
+please send them to the DDD developers <A HREF="mailto:ddd@gnu.org">&lt;ddd@gnu.org&gt;</A>.<P>
+
+
+
+<LI>Welcome to DDD!<BR>
+You can get help on all items by pointing at them and pressing F1.<BR>
+And don't worry, you can undo most mistakes...<P>
+
+<LI>Whenever you're stuck, try <EM>Help</EM>-&gt;<EM>What Now</EM>.  This will analyze the<BR>
+current DDD state and give you some hints on what to do next.<P>
+
+<LI>Buttons with a small triangle in the upper right corner are special:<BR>
+pressing and holding <EM>mouse button 1</EM> on them will pop up a menu <BR>
+with additional options.<P>
+
+<LI>You can interrupt GDB and the current program by clicking on<BR>
+<EM>Program</EM>-&gt;<EM>Interrupt</EM> or pressing <KBD>Esc</KBD>.<P>
+
+<LI>If you made a mistake, try <EM>Edit</EM>-&gt;<EM>Undo</EM>.  This will undo the most<BR>
+recent debugger command and redisplay the previous program state.<P>
+
+<LI>There are three ways to show the value of a variable:<BR>
+-  You can view its value, simply by pointing at it;<BR>
+-  You can print its value in the debugger console, using <EM>Print ()</EM>;<BR>
+-  You can display it graphically, using <EM>Display ()</EM>.<P>
+
+<LI>A quick way to manipulate variables, breakpoints, and displays<BR>
+is to press <EM>mouse button 3</EM> on them.<P>
+
+<LI>Double-clicking on any value in the data display <BR>
+will toggle more details.<P>
+
+<LI>If your program needs special terminal capabilities such as readline<BR>
+or curses, let it run in the separate execution window <BR>
+(<EM>Program</EM>-&gt;<EM>Run in Execution Window</EM>).<P>
+
+
+
+<LI>You can save space in the data window by <BR>
+-  hiding details (<EM>Show/Hide</EM>),<BR>
+-  rotating structs (<EM>Rotate</EM>), and <BR>
+-  clustering variables (<EM>Undisp</EM>-&gt;<EM>Cluster</EM>).<P>
+
+<LI>If you want to customize the DDD fonts, see<BR>
+<EM>Edit</EM>-&gt;<EM>Preferences</EM>-&gt;<EM>Fonts</EM>.<P>
+
+<LI>To change the text background color, write into `<CODE>~/.ddd/init</CODE>':<BR>
+<TT>Ddd*XmText.background:      </TT> <VAR>color</VAR><BR>
+<TT>Ddd*XmTextField.background: </TT> <VAR>color</VAR><BR>
+<TT>Ddd*XmList.background:      </TT> <VAR>color</VAR><P>
+
+<LI>When using GDB, all text fields have command and argument completion<BR>
+with <KBD>Tab</KBD>, just like the shell.  In a file selection box, type part of<BR>
+a filename, hit <KBD>Tab</KBD>, and voila!  It's completed.<P>
+
+<LI>You can always recenter the command tool<BR>
+by selecting <EM>View</EM>-&gt;<EM>Command Tool</EM>,<BR>
+or by pressing <KBD>Alt+8</KBD>.<P>
+
+<LI>To scroll the data display, most users find a <EM>panner</EM><BR>
+much more convenient than two scrollbars.<BR>
+Check out <EM>Edit</EM>-&gt;<EM>Preferences</EM>-&gt;<EM>Startup</EM>-&gt;<EM>Data Scrolling</EM>.<P>
+
+<LI>To limit the number of array elements in a data display, set<BR>
+<EM>Edit</EM>-&gt;<EM>GDB Settings</EM>-&gt;<EM>Limit on array elements to print</EM>.<P>
+
+<LI>If DDD cannot find a source, set the GDB source path via <BR>
+<EM>Edit</EM>-&gt;<EM>GDB Settings</EM> or enter <BR>
+`<TT>dir sourcedir_1:sourcedir_2:...:sourcedir_n</TT>' at the GDB prompt.<P>
+
+<LI>You can quickly set breakpoints<BR>
+by double-clicking in the breakpoint area.<P>
+
+<LI>To see the <EM>actual</EM> type of a C++ object in GDB, set<BR>
+<EM>Edit</EM>-&gt;<EM>GDB Settings</EM>-&gt;<EM>Set printing of object's derived type</EM>.<P>
+
+<LI>To display <VAR>data</VAR> in hexadecimal format, display it and choose<BR>
+<EM>Convert to Hex</EM> from the <EM>Display ()</EM> menu, <BR>
+or enter `<TT>graph display /x <VAR>data</VAR></TT>' at the GDB prompt.<P>
+
+<LI>To send a signal to your program,<BR>
+use <EM>Status</EM>-&gt;<EM>Signals</EM>-&gt;<EM>Send</EM>.<P>
+
+<LI>To quickly display variable values,<BR>
+double-click on the variable name.<P>
+
+<LI>After looking up an item or stepping through the program, you can use<BR>
+<EM>Edit</EM>-&gt;<EM>Undo</EM> and <EM>Edit</EM>-&gt;<EM>Redo</EM> to return to earlier locations.<P>
+
+<LI>You can repeat the last command by hitting <KBD>RETURN</KBD>.<BR>
+Use <KBD>Ctrl+B</KBD> and <KBD>Ctrl+F</KBD> to search the command history.<P>
+
+<LI>You can move breakpoints by dragging them.  <BR>
+Just press and hold <EM>mouse button 1</EM> on a breakpoint,<BR>
+move it to the new position and release <EM>mouse button 1</EM> again.<P>
+
+<LI>To make your program ignore signals, use <EM>Status</EM>-&gt;<EM>Signals</EM> and<BR>
+unset the <EM>Pass</EM> button for the appropriate signal.<P>
+
+<LI>You can save space by disabling toolbar captions.<BR>
+See <EM>Edit</EM>-&gt;<EM>Preferences</EM>-&gt;<EM>Startup</EM>-&gt;<EM>Toolbar Appearance</EM>.<P>
+
+<LI>To quickly edit breakpoint properties, <BR>
+double-click on a breakpoint symbol.<P>
+
+<LI>To have GDB start your program automatically upon startup,<BR>
+put the following lines in your `<CODE>.gdbinit</CODE>' file:<BR>
+<TT>break main</TT>      - or some other initial function<BR>
+<TT>run       </TT>      - possibly giving arguments here<P>
+
+
+
+<LI>To get rid of these tips of the day, unset<BR>
+<EM>Edit</EM>-&gt;<EM>Preferences</EM>-&gt;<EM>Startup</EM>-&gt;<EM>Show Tip of the Day</EM>.<P>
+
+<LI>To redirect stderr from the execution window to the debugger console,<BR>
+add `<TT>2>/dev/tty</TT>' to the arguments of your program.<P>
+
+<LI>To display the first <VAR>n</VAR> elements of a variable-length array <VAR>ptr</VAR>,<BR>
+enter `<TT>graph display <VAR>ptr</VAR>[0]@<VAR>n</VAR></TT>' at the GDB prompt.<P>
+
+<LI>To undisplay a specific record member once and for all, select it in a<BR>
+display and click on <EM>Undisp</EM>.  Confirming with <EM>Apply to All</EM><BR>
+suppresses the member in other displays, too.<P>
+
+<LI>To display data in a smaller font, try <EM>Data</EM>-&gt;<EM>Themes</EM>-&gt;<EM>Small Values</EM>.<BR>
+The pattern describes the expressions you want to see in smaller font:<BR>
+`<TT>*</TT>' matches all expressions.<P>
+
+<LI>You can have each of DDD, GDB and the debugged program run on<BR>
+different machines.  See the DDD `<TT>--rhost</TT>' option for details.<P>
+
+<LI>You can copy breakpoints by dragging them while pressing <KBD>Shift</KBD>.<BR>
+Just press and hold <KBD>Shift</KBD>+<EM>mouse button 1</EM> on a breakpoint,<BR>
+move it to the new position and release <EM>mouse button 1</EM> again.<P>
+
+<LI>To save and restore data displays, cut, copy and paste them via<BR>
+the <EM>Edit</EM> menu.  Together with <TT>xclipboard</TT>, you can manage<BR>
+arbitrary collections of data displays.<P>
+
+<LI>Do you want to stop this debugging session and resume later?<BR>
+Use <EM>File</EM>-&gt;<EM>Save Session</EM>!<P>
+
+<LI>You can interact with DDD even while the debuggee is executing:<BR>
+DDD automatically interrupts program execution for a moment.  <BR>
+This works whenever program execution is initiated by <EM>Run</EM> or <EM>Cont</EM>.<P>
+
+<LI>To debug a child process, put a call to `<TT>sleep</TT>' in the child right<BR>
+after the `<TT>fork</TT>' call.  Run the program and attach to the child process<BR>
+using <EM>File</EM>-&gt;<EM>Attach to Process</EM>.<P>
+
+<LI>If your program prints a lot of text on standard error, try<BR>
+redirecting standard error to a file (via `<TT>2> <VAR>FILE</VAR></TT>'), or add<BR>
+to `<CODE>~/.ddd/init</CODE>': <TT>Ddd*lineBufferedConsole: off</TT>.<P>
+
+<LI>If the inferior debugger does not support stderr redirection, try<BR>
+invoking DDD using `<TT>--debugger '<VAR>NAME</VAR> 2> <VAR>FILE</VAR>'</TT>'.<P>
+
+<LI>Using GDB, you can define your own canned sequences of commands.<BR>
+Try <EM>Commands</EM>-&gt;<EM>Define Command</EM>.<P>
+
+<LI>To use GDB with Solaris CC, compile with `<TT>-xs</TT>'.<BR>
+GDB wants debugging info in the executable.<P>
+
+<LI>To use GDB with G77, compile with `<TT>-fdebug-kludge</TT>'.  This gives<BR>
+rudimentary information on COMMON and EQUIVALENCE variables in GDB.<BR>
+See the G77 documentation for details.<P>
+
+<LI>Double-clicking on a function call will lead you to the definition of<BR>
+the function.  Use <EM>Edit</EM>-&gt;<EM>Undo</EM> to return to the function call.<P>
+
+<LI>Disabled breakpoints can be used as bookmarks.<BR>
+Use <EM>Source</EM>-&gt;<EM>Edit Breakpoints</EM> to list all breakpoints;<BR>
+then, click on <EM>Lookup</EM> to jump to a breakpoint location.<P>
+
+<LI>You can assign user-defined buttons to frequently used commands.<BR>
+Try <EM>Commands</EM>-&gt;<EM>Edit Buttons</EM>.<P>
+
+<LI>In the Breakpoint and Display Editors,<BR>
+you can toggle the selection with <KBD>Ctrl</KBD>+<EM>mouse button 1</EM>.<BR>
+This allows you to select non-contiguous ranges of items.<P>
+
+<LI>To change the properties of multiple breakpoints at once,<BR>
+select them in the breakpoint editor (<EM>Source</EM>-&gt;<EM>Edit Breakpoints</EM>)<BR>
+and click on <EM>Properties</EM>.<P>
+
+<LI>Even while in the source window, <BR>
+you can enter and edit GDB commands:<BR>
+Just type the command and press <KBD>RETURN</KBD>.<P>
+
+<LI>You can record commands to be executed when a breakpoint is hit.<BR>
+In the <EM>Breakpoint Properties</EM> panel, try <EM>Record</EM> and <EM>End</EM>.<P>
+
+<LI>You can easily resume a saved DDD <VAR>session</VAR><BR>
+by invoking DDD as `<TT>ddd =<VAR>session</VAR></TT>'.<P>
+
+<LI>If the DDD source window keeps on scrolling until the end of source is<BR>
+reached, try changing the `<TT>glyphUpdateDelay</TT>' resource.  See the<BR>
+DDD manual for details.<P>
+
+<LI>To customize display appearance, you can write your own themes.<BR>
+For details, see the  manual "Writing DDD Themes".<P>
+
+<LI>For further DDD customization (e.g. colors), see the `<CODE>Ddd</CODE>'<BR>
+app-defaults file from the DDD WWW Site or the DDD source<BR>
+distribution.  Copy resources to `<CODE>~/.ddd/init</CODE>' and edit as desired.<P>
+
+
+
+<LI>In GCC, `<TT>-Wall</TT>' does not enable all warnings.  See the GCC<BR>
+documentation for other warnings you might consider useful.<BR>
+<BR> - <EM>J.H.M. Dassen</EM> <A HREF="mailto:jdassen@wi.leidenuniv.nl">&lt;jdassen@wi.leidenuniv.nl&gt;</A><P>
+
+<LI>To get a global idea of what a process or program does or is doing,<BR>
+use a system call tracer, like `<TT>strace</TT>', `<TT>truss</TT>', or `<TT>trace</TT>'.<BR>
+<BR> - <EM>J.H.M. Dassen</EM> <A HREF="mailto:jdassen@wi.leidenuniv.nl">&lt;jdassen@wi.leidenuniv.nl&gt;</A><P>
+
+<LI>If you suspect memory corruption caused by problematic pointers, <BR>
+try linking with Electric Fence `<TT>efence</TT>' or the `<TT>dbmalloc</TT>' library.<BR>
+See the DDD WWW page for links.<BR>
+<BR> - <EM>J.H.M. Dassen</EM> <A HREF="mailto:jdassen@wi.leidenuniv.nl">&lt;jdassen@wi.leidenuniv.nl&gt;</A><P>
+
+<LI>Prevention is better than cure.  Document your assumptions using<BR>
+<TT><assert.h></TT> or GNU NANA.  See the DDD WWW page for links.<BR>
+<BR> - <EM>J.H.M. Dassen</EM> <A HREF="mailto:jdassen@wi.leidenuniv.nl">&lt;jdassen@wi.leidenuniv.nl&gt;</A><P>
+
+<LI>The debugger isn't a substitute for good thinking.  But, in some<BR>
+cases, thinking isn't a substitute for a good debugger either.  The<BR>
+most effective combination is good thinking and a good debugger.<BR>
+<BR> - <EM>Steve McConnell</EM>, Code Complete<P>
+
+<LI>When you're totally stuck, try to find a helpful ear.  In my experience,<BR>
+nothing helps you more in debugging than to try to explain your problem<BR>
+(what your code should do, and what it actually does) to someone else.<BR>
+<BR> - <EM>J.H.M. Dassen</EM> <A HREF="mailto:jdassen@wi.leidenuniv.nl">&lt;jdassen@wi.leidenuniv.nl&gt;</A><P>
+
+</OL>

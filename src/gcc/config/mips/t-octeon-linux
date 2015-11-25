@@ -1,0 +1,4 @@
+MULTILIB_OPTIONS = mabi=64/mabi=n32 muclibc 
+MULTILIB_DIRNAMES = 64 n32 uclibc
+MULTILIB_OSDIRNAMES = ../lib64 ../lib32 ../uclibc
+MULTILIB_EXCEPTIONS = *muclibc/mabi=64* muclibc 
